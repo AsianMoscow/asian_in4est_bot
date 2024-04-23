@@ -1,0 +1,16 @@
+from datetime import datetime
+
+ukraine = datetime(2022, 2, 24)
+israel = datetime(2023, 10, 7)
+putin = datetime(2000, 3, 26)
+rurik = datetime(862, 1, 1)
+nik = datetime(2002, 5, 27)
+art = datetime(1989, 8, 8)
+mama = datetime(1967, 10, 1)
+n = datetime.now()
+print(f"Ukraine: \t\t{(n-ukraine).days+1} days\nIsrael: \t\t{(n-israel).days+1} days")
+print(f"Putin's rule: \t\t{(n-putin).days+1} days")
+print(f"Rurik:\t\t\t{(n-rurik).days+1} days")
+print(f"Nikita {n-nik}")
+print(f"Artem {n-art}")
+print(f"Mama {n-mama}")
